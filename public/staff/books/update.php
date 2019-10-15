@@ -19,8 +19,7 @@ if (is_post_request()) {
     $result = $book->save();
 
     if ($result === true) {
-        //$new_id = $book->id; -> used for redirecting directly to the show record page only
-        $session->message('The book ' . '\'' .h($book->title) . '\'' . ' was updated successfully.');
+        $session->message('The book was updated successfully.');
         redirect_to(url_for('/staff/books/show.php?id=' . $id));
     } else {
         // show errors
