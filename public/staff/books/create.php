@@ -7,9 +7,9 @@ if (is_post_request()) {
     $result = $book->save();
 
     if ($result === true) {
-        //$new_id = $book->id; -> used for redirecting directly to the show record page only
+        $new_id = $book->id;
         $session->message('The book was created successfully.');
-        redirect_to(url_for('/index.php'));
+        redirect_to(url_for('/staff/books/show.php?id=' . $new_id));
     } else {
         // show errors
     }
