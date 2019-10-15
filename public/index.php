@@ -60,26 +60,6 @@ $books = Book::find_all();
 
             </tbody>
         </table>
-
-        <?php
-        /*        if ($pagination->total_pages() > 1) {
-                    echo "<div>";
-
-                    $url = url_for('/index.php');
-
-                    if ($pagination->next_page() != false) {
-                        echo "<a href=\"{$url}?page={$pagination->next_page()}\" class='pag'>";
-                        echo "Next</a>";
-                    }
-
-                    if ($pagination->previous_page() != false) {
-                        echo "<a href=\"{$url}?page={$pagination->previous_page()}\">";
-                        echo "Previous</a>";
-                    }
-
-                    echo "</div>";
-                }
-                */ ?>
     </div>
 </div>
 
