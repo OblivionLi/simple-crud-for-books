@@ -1,5 +1,4 @@
 # A simple CRUD project for books
----
 
 ## Tehnologies used: HTML/CSS/JS/PHP and MySQL
 
