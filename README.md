@@ -1,6 +1,6 @@
 # A simple CRUD project for books
 
-## Tehnologies used:
+## Technologies used:
 
 * HTML
 * CSS / Bootstrap
