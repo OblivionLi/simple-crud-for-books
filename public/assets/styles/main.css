@@ -1,0 +1,87 @@
+html body {
+    height: 100%;
+    font-family: Arial, serif;
+    color: #3a446b;
+}
+
+body {
+    padding-bottom: 70px;
+}
+
+/* unvisited link */
+.main a:link {
+    color: #3a446b;
+}
+
+/* visited link */
+.main a:visited {
+    color: #3a446b;
+}
+
+/* mouse over link */
+.main a:hover {
+    color: #e67e22;
+}
+
+/* selected link */
+.main a:active {
+    color: #3a446b;
+}
+
+.main .page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #3a446b;
+    border-color: #3a446b;
+}
+
+.actionDivider {
+    margin: 0 10px 0 10px;
+}
+
+@media (max-width: 991.98px) {
+    .actionDivider {
+        display: none;
+    }
+}
+
+.header {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.action {
+    margin-bottom: 16px;
+}
+
+.main {
+    margin-top: 50px;
+}
+
+.pag {
+    margin-right: 20px;
+}
+
+.errors {
+    color: red;
+}
+
+#message {
+    color: green;
+}
+
+.date select {
+    width: 90px;
+}
+
+.button .btn-primary {
+    color: #fff;
+    background-color: #3a446b;
+    border-color: #3a446b;
+}
+
+.button .btn-primary:hover {
+    color: #fff;
+    background-color: #e67e22;
+    border-color: #e67e22;
+}
